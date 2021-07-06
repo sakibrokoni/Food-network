@@ -1,19 +1,45 @@
+
+.navbar {
+    width: 100%;
+    background-color:darkorange;
+    overflow:hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    width: 20%; 
+    text-align: center; 
+    color:whitesmoke;
+  }
+
+
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 .flexible-container{
     display: flex;
+    margin: 10px;
 }
 span{
-    color: chocolate;
+    color: rgb(123, 185, 8);
 }
-.link-button{
-    text-decoration: none;
-    background-color:orange;
-    font-weight: 400;
-    padding: 10px 40px;
-    border-radius: 5px;
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    color: black;
+}
+
+
+h3{
+    color: orangered;
 }
 .half-width{
     width: 110%;
@@ -23,17 +49,28 @@ span{
 }
 .half-width img{
     width: 60%;
-    margin-left: 110px;
 }
 
+.link-button{
+    text-decoration: none;
+    background-color:rgba(255, 187, 0, 0.925);
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+
 .about-me{
-    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 .about-me img{
-    width: 58%;
+    width: 60%;
 }
+
+
+
 
 .recipies{
     text-align: center;
@@ -49,13 +86,24 @@ span{
     padding: 30px;
     border-radius: 30px;
 }
+.image{
+    max-height:100%;
+    max-width:100%;
+}
+
+.recipie-item{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
 
 .box-shadow{
     box-shadow: 1px 1px 30px gray;
     border-radius: 15px;
     width: 90%;
-    height: 4%;
+    height: 5%;
     margin-bottom: 200px;
     margin-left: 5%;
     margin-right: 4%;
@@ -71,13 +119,13 @@ span{
 }
 
 
-
 footer{
     text-align: center;
     padding-top: 15px;
-    padding-bottom: 40px;
-    background-color: darkslategray;  
+    padding-bottom: 30px;
+    background-color:gainsboro;
 }
+
 
 
 .price{
@@ -100,24 +148,6 @@ footer{
     background-size: contain;
 }
 
-
-.article{
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-.article-post{
-    box-shadow: 10px 10px 40px gray;
-    margin-bottom: 200px;
-    width: 20%;
-    height: 5%;
-    margin-left: 5%;
-    margin-right: 4%;
-    padding: 30px;
-    border-radius: 30px;
-}
-.article-post{
-    background-image: url(images/shapes/Frame\ 57.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+p{
+    color: rgb(12, 14, 180);
 }
