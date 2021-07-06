@@ -2,18 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.orange-color{
+.flexible-container{
+    display: flex;
+}
+span{
     color: chocolate;
 }
 .link-button{
     text-decoration: none;
-    background-color: orange;
+    background-color:orange;
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 5px;
-}
-.flexible-container{
-    display: flex;
 }
 .half-width{
     width: 110%;
@@ -21,7 +21,103 @@ body{
     margin-bottom: 200px;
     padding-top: 80px;
 }
-.half-width image{
+.half-width img{
     width: 60%;
     margin-left: 110px;
+}
+
+.about-me{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about-me img{
+    width: 58%;
+}
+
+.recipies{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.recipie-item{
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 200px;
+    width: 20%;
+    height: 5%;
+    margin-left: 5%;
+    margin-right: 4%;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+
+.box-shadow{
+    box-shadow: 1px 1px 30px gray;
+    border-radius: 15px;
+    width: 90%;
+    height: 4%;
+    margin-bottom: 200px;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+
+
+.follower{
+    text-align: center;
+    margin-left: 5%;
+    margin-right:5%;
+    width: 30%;
+}
+
+
+
+footer{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: darkslategray;  
+}
+
+
+.price{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.price-table{
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 200px;
+    width: 20%;
+    height: 5%;
+    margin-left: 5%;
+    margin-right: 4%;
+    padding: 30px;
+    border-radius: 30px;
+}
+.price-table{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.article{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.article-post{
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 200px;
+    width: 20%;
+    height: 5%;
+    margin-left: 5%;
+    margin-right: 4%;
+    padding: 30px;
+    border-radius: 30px;
+}
+.article-post{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
